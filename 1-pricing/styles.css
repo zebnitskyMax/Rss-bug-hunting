@@ -87,10 +87,13 @@ body {
 }
 
 .features li::before {
-  content: "";
+  display: inline-block;
+  content: "✓";
   color: #22c55e;
   font-weight: 700;
   margin-right: 8px;
+  height: 8px;
+  width: 8px;
 }
 
 .btn {
