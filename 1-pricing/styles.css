@@ -52,7 +52,7 @@ body {
 }
 
 .plan--featured {
-  border: 2px solid transparent;
+  border: 2px solid #2563eb;
   box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
 }
 
@@ -64,7 +64,7 @@ body {
 .price {
   font-size: 40px;
   font-weight: 700;
-  color: #f8fafc;
+  color: #0f172a;
   margin-bottom: 20px;
 }
 
@@ -100,14 +100,14 @@ body {
   display: inline-block;
   padding: 12px 28px;
   border-radius: 8px;
-  background: #cbd5e1;
+  background: #2563eb;
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   transition: .3s linear all;
 
   &:hover {
-    background: gray;
+    background: #497ae3;
     transform: scale(1.1);
   }
 }
