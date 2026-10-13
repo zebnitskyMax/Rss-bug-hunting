@@ -104,4 +104,10 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
+  transition: .3s linear all;
+
+  &:hover {
+    background: gray;
+    transform: scale(1.1);
+  }
 }
